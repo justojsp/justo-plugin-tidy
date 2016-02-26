@@ -1,0 +1,57 @@
+{
+  "name": "justo-plugin-tidy",
+  "version": "0.1.0",
+  "description": "Clean up your Web pages with HTML TIDY.",
+  "homepage": "http://wwww.justojs.org",
+  "author": {
+    "name": "Justo Labs",
+    "email": "justojs@justolabs.com",
+    "url": "http://www.justojs.org"
+  },
+  "contributors": [
+    {
+      "name": "Raúl G. González",
+      "email": "raulggonzalez@justojs.org",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "Justo",
+    "Justo.js",
+    "justo-plugin",
+    "TIDY"
+  ],
+  "bugs": {
+    "url": "https://github.com/justojsp/justo-plugin-tidy/issues",
+    "email": "issues@justojs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justojsp/justo-plugin-tidy.git"
+  },
+  "engines": {
+    "node": ">= 5.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "dependencies": {
+    "justo-fs": "*"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "*",
+    "justo": "*",
+    "justo-assert": "*",
+    "justo-plugin-babel": "*",
+    "justo-plugin-fs": "*",
+    "justo-plugin-jshint": "*",
+    "justo-plugin-npm": "*"
+  },
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "justo test"
+  },
+  "preferGlobal": false
+}
